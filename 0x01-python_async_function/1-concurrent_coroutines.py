@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 
-import asyncio
-from typing import List
-from random import uniform
-
-
 """
 Module: 1-concurrent_coroutines
 ------------------------
@@ -13,6 +8,9 @@ This module contains two asynchronous coroutines:
 wait_random and wait_n.
 
 """
+import asyncio
+from typing import List
+from random import uniform
 
 
 async def wait_random(max_delay: int = 10) -> float:
