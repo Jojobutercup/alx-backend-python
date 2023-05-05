@@ -11,11 +11,10 @@ from typing import Generator
 
 async def async_generator() -> Generator[float, None, None]:
     """
-    Coroutine that yields 10 random numbers
-    between 0 and 10, waiting for 1 second between each yield.
+    Coroutine that yields 10 random numbers between 0 and 10, waiting for 1 second between each yield.
 
     Returns:
-        An asynchronous generator that yields floats.
+        A generator that yields floats.
     """
     for _ in range(10):
         await asyncio.sleep(1)
