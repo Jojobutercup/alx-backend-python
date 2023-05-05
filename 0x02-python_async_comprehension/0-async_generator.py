@@ -4,7 +4,6 @@
 This module contains an asynchronous comprehension
 that waits for a random delay
 """
-
 import asyncio
 import random
 from typing import AsyncGenerator
